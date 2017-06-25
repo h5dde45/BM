@@ -5,6 +5,7 @@
     <title>BOOK</title>
   </head>
   <body>
-  <h2>${str}</h2>
+  <h2>${book.toString()}</h2>
+  <h2>${listBooks}</h2>
   </body>
 </html>

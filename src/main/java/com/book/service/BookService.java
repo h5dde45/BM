@@ -1,10 +1,10 @@
-package com.book.dao;
+package com.book.service;
 
 import com.book.model.Book;
 
 import java.util.List;
 
-public interface BookDao {
+public interface BookService {
 
     void addBook(Book book);
 
@@ -15,5 +15,4 @@ public interface BookDao {
     Book getBookById(int id);
 
     List<Book> listBooks();
-
 }
